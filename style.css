@@ -7,7 +7,7 @@
   left: 0;
   top: 0;
   bottom: 0;
-  background-color: #8F0E0E;
+  background-color: #384047;
 }
 
 #sidebar ul li a{
@@ -20,7 +20,7 @@
 }
 /*Generalités*/
 body {
-  background-color: rgb(208, 208, 208);
+  background-color: rgb(235, 235, 235);
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: #222831;
