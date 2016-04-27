@@ -1,0 +1,130 @@
+/*Fichiers de style pour index.html*/
+
+/*Disposition*/
+#sidebar {
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #8F0E0E;
+}
+
+#sidebar ul li a{
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+}
+#page-content {
+  margin-left: 300px;
+}
+/*Generalités*/
+body {
+  background-color: rgb(208, 208, 208);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #222831;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 40px;
+  color: rgb(34,77,115);
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #393E46;
+}
+
+h3 {
+  color: #0E2033;
+  line-height: 8px;
+}
+
+a {
+  color: rgb(34,77,115);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(7,36,62);
+}
+
+i {
+  margin: 8px;
+}
+
+/*Styles des cards*/
+.container {
+  margin: auto;
+}
+.card {
+  background-color: white;
+  margin: 20px auto;
+  padding: 30px;
+  width: 600px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 2px rgb(150, 150, 150);
+}
+
+.text_center {
+  text-align: center;
+}
+/*Style des images*/
+
+.img_reduce {
+  width: 200px; /* you can use % */
+  height: auto;
+  margin-right:20px;
+}
+
+#profil_pic {
+  border-radius: 50%;
+  width: 150px;
+  border: 2px solid grey;
+}
+/*Style des lists*/
+.list_inline {
+  padding-left: 0px;
+}
+
+.list_no_bullets {
+  list-style: none;
+  padding: 10px;
+  margin: auto;
+}
+
+.list_inline > li {
+  display: inline-block;
+  padding: 30px;
+}
+.about ul {
+/*  text-align: center;*/
+  font-size: 20px;
+}
+
+/*Boutons*/
+.btn_red {
+  width: 50px;
+  height:20px;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  background-color:#C70F1B;
+  border-radius: 5px;
+}
+
+.btn_red:hover {
+  text-decoration: none;
+  color: white;
+  box-shadow: 1px 3px 5px rgb(200, 200, 200)
+}
+
+

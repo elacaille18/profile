@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Page</title>
+  <!-- Icones -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <!-- Style -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans|Montserrat|Raleway' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <div id="sidebar">
+    <ul class="list_no_bullets">
+      <li>
+        <a href="#summary">Info</a>
+      </li>
+      <li>
+        <a href="#links">Follow me</a>
+      </li>
+
+      <li>
+        <a href="#movies">Movies</a>
+      </li>
+      <li>
+        <a href="#help">Help</a>
+      </li>
+    </ul>
+  </div>
+
+  <div id="page_contents">
+    <div class="container">
+      <div class="card text_center" id="summary">
+        <img src="images/eric.jpg" alt="Profil_Eric" class="img_reduce" id="profil_pic">
+        <h1>Eric Lacaille</h1>
+        <h2>Student @Le Wagon</h2>
+        <p>
+          After graduating from Ecole Centrale Paris, I decided to involve myself in the tech world. My first step is Web development, that's why I have embarked at <strong>Le Wagon</strong>.
+        </p>
+        <a href="http://lewagon.org" class="btn_red">See for yourself</a>
+      </div>
+
+      <!-- Liens communications -->
+      <div class="card text_center" id="links">
+        <ul class="list_inline">
+          <li>
+            <a href="">
+              <i class="fa fa-facebook" aria-hidden="true"></i>Facebook
+            </a>
+          </li>
+
+          <li>
+            <a href="">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>Linkedin
+            </a>
+          </li>
+
+          <li>
+            <a href="">
+              <i class="fa fa-twitter" aria-hidden="true"></i>Twitter
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Tableau des films -->
+      <div class="card movies" id="movies">
+        <h2 class="text_center">My favorites movies</h2>
+
+        <table>
+          <tr>
+            <td>
+              <img src="images/good_morning.jpg" alt="Good Morning England" class="img_reduce">
+            </td>
+            <td>
+              <h3>Good Morning England</h3>
+              <p>
+                A band of rogue DJs that captivated Britain, playing the music that defined a generation and standing up to a government that wanted classical music, and nothing else, on the airwaves.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="images/papy.jpg" alt="Papy fait de la résistance" class="img_reduce">
+            </td>
+            <td>
+              <h3>Papy fait de la résistance</h3>
+              <p>
+                En 1943, les Bourdelle se voient eux aussi envahis par les Allemands, et se retrouvent logés à la cave. Le fils, GuyHubert, dissimulé derrière les traits d'un coiffeur homosexuel, est en fait Super-Résistant, sorte de Zorro du moment, et qui complote contre les nazis.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="images/soldat.jpg" alt="Il faut sauver le Soldat Ryan" class="img_reduce">
+            </td>
+            <td>
+              <h3>Il faut sauver le soldat Ryan</h3>
+              <p>
+                Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- Footer -->
+      <div class="card about" id="help">
+        <h2 class="text_center">About this page</h2>
+        <p>
+        This page has been coded during the <a target="_blank" href="https://www.lewagon.com/program">FullStack program @LeWagon</a>.
+        That was probably the best experience of my entire life.
+        </p>
+
+        <ul class="list_inline text_center">
+          <li>
+            <a href="#">
+              <i class="fa fa-heart" aria-hidden="true"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <i class="fa fa-share" aria-hidden="true"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
