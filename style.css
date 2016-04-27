@@ -12,10 +12,9 @@
 
 #sidebar ul li a{
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   padding: 10px;
-  text-align: center;
-  margin-bottom: 20px;
+
 }
 #page-content {
   margin-left: 300px;
@@ -101,8 +100,13 @@ i {
   list-style: none;
   padding: 10px;
   margin: auto;
+  margin-top: 50px;
 }
 
+.list_no_bullets li {
+  padding :10px;
+  margin-bottom: 10px;
+}
 .list_inline > li {
   display: inline-block;
   padding: 30px;
